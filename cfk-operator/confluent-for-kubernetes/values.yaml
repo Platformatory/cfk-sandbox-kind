@@ -92,7 +92,7 @@ replicas: 1
 ## Confluent Operator Cluster Access
 ## If true, operator only creates roles/rolebinding for the release namespace
 ## Otherwise, it has cluster access with clusterrole/clusterrrolebinding
-namespaced: false
+namespaced: true
 ### list of namespaces to watch by operator
 ### This field only takes in effect if `namespaced=true`. By default, it will only watch the release namespace
 ### Otherwise, it will watch specified namespaces. If watching only release namespace, do not specify this field
